@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" width="640" height="290" font-family="Helvetica, Arial, sans-serif">
+<rect width="640" height="290" fill="#ffffff"/>
+<text x="64" y="22" font-size="15" font-weight="bold" fill="#14202b">How a dBA meter hears a hum (A-weighting, IEC 61672)</text>
+<rect x="64" y="40" width="208.0" height="200" fill="#f6e7d6"/>
+<text x="72" y="56" font-size="11" fill="#b25d12">HUM AND DRONE</text>
+<line x1="64" x2="620" y1="62.2" y2="62.2" stroke="#d5dee5"/><text x="56" y="66.2" font-size="11" fill="#4f6070" text-anchor="end">0</text>
+<line x1="64" x2="620" y1="106.7" y2="106.7" stroke="#d5dee5"/><text x="56" y="110.7" font-size="11" fill="#4f6070" text-anchor="end">-10</text>
+<line x1="64" x2="620" y1="151.1" y2="151.1" stroke="#d5dee5"/><text x="56" y="155.1" font-size="11" fill="#4f6070" text-anchor="end">-20</text>
+<line x1="64" x2="620" y1="195.6" y2="195.6" stroke="#d5dee5"/><text x="56" y="199.6" font-size="11" fill="#4f6070" text-anchor="end">-30</text>
+<line x1="64" x2="620" y1="240.0" y2="240.0" stroke="#d5dee5"/><text x="56" y="244.0" font-size="11" fill="#4f6070" text-anchor="end">-40</text>
+<text x="64.0" y="258" font-size="11" fill="#4f6070" text-anchor="middle">31.5</text>
+<text x="133.6" y="258" font-size="11" fill="#4f6070" text-anchor="middle">63</text>
+<text x="202.4" y="258" font-size="11" fill="#4f6070" text-anchor="middle">125</text>
+<text x="272.0" y="258" font-size="11" fill="#4f6070" text-anchor="middle">250</text>
+<text x="341.6" y="258" font-size="11" fill="#4f6070" text-anchor="middle">500</text>
+<text x="411.2" y="258" font-size="11" fill="#4f6070" text-anchor="middle">1k</text>
+<text x="480.8" y="258" font-size="11" fill="#4f6070" text-anchor="middle">2k</text>
+<text x="550.4" y="258" font-size="11" fill="#4f6070" text-anchor="middle">4k</text>
+<text x="620.0" y="258" font-size="11" fill="#4f6070" text-anchor="middle">8k</text>
+<path d="M64.0,237.3 L133.6,178.7 L202.4,133.8 L272.0,100.4 L341.6,76.4 L411.2,62.2 L480.8,56.9 L550.4,57.8 L620.0,67.1" fill="none" stroke="#0f6e7a" stroke-width="2.5"/>
+<circle cx="64.0" cy="237.3" r="3" fill="#0f6e7a"/>
+<circle cx="133.6" cy="178.7" r="3" fill="#0f6e7a"/>
+<circle cx="202.4" cy="133.8" r="3" fill="#0f6e7a"/>
+<circle cx="272.0" cy="100.4" r="3" fill="#0f6e7a"/>
+<circle cx="341.6" cy="76.4" r="3" fill="#0f6e7a"/>
+<circle cx="411.2" cy="62.2" r="3" fill="#0f6e7a"/>
+<circle cx="480.8" cy="56.9" r="3" fill="#0f6e7a"/>
+<circle cx="550.4" cy="57.8" r="3" fill="#0f6e7a"/>
+<circle cx="620.0" cy="67.1" r="3" fill="#0f6e7a"/>
+<line x1="202.4" x2="202.4" y1="62.2" y2="133.8" stroke="#b25d12" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="202.4" cy="133.8" r="5" fill="#b25d12"/><text x="212.4" y="151.8" font-size="13" fill="#b25d12">125 Hz: -16.1 dB</text>
+<text x="342" y="282" font-size="12" fill="#4f6070" text-anchor="middle">frequency, Hz (octave bands)</text>
+<text x="16" y="140" font-size="12" fill="#4f6070" text-anchor="middle" transform="rotate(-90 16 140)">dB added by the meter</text></svg>
