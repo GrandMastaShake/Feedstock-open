@@ -7,6 +7,15 @@ on quieter, smarter heat rejection for data centers.
 By Alexander Smith, independent researcher, central Pennsylvania. I wait tables by day and chase
 data center noise the rest of the time. Everything here is free for anyone to use and build on.
 
+**Start here**
+
+- **Checking the liquid-air thermodynamics?** The calculation is in
+  [cryocap/liquid-air-cop-check.md](cryocap/liquid-air-cop-check.md) (also as a
+  [PDF](cryocap/liquid-air-cop-check.pdf)). It is not in the published record yet.
+- **Opening the published paper?** It covers three families of systems, and the first one
+  (geothermal brine, desalination, membranes) is not CryoCap. CryoCap is **Section 4**,
+  Embodiment Family B.
+
 ---
 
 ## CryoCap: the meter doesn't hear what the neighbors hear
@@ -30,16 +39,17 @@ just overall dBA.
 | Thread | Status | The idea |
 | --- | --- | --- |
 | Quiet hours | Write-up drafted | A plant-level interlock holds the outdoor heat-rejection plant under its night-time sound budget, and stored heat carries the load through the quiet window. The worst case on paper is also the quiet case, and a mitigation that can't fail open is one a permit reviewer can trust. |
-| Low-tone fan | Waiting on coil data | A ducted dry-cooler fan stage whose geometry keeps the strongest fan tones inside the duct until they are high enough in pitch for ordinary acoustic lining to absorb. The numbers depend on the pressure drop across real dry-cooler coils, which I'm pinning down now. |
+| Low-tone fan | Modeled across real coils | A ducted dry-cooler fan stage whose geometry keeps the strongest fan tones inside the duct until they are high enough in pitch for ordinary acoustic lining to absorb. I've now run it across the coil pressure drops typical dry coolers see, and on paper it holds. Next is checking it against measured fan data. |
 | Coolant temperature | Estimate | Rank cooling systems by coolant temperature, not fan count. Warmer coolant lets the outdoor fans turn slower, and fan noise falls steeply with speed. On one vendor's own published numbers, hot-water direct-to-chip cooling comes out roughly 18 dB quieter at the property line than single-phase immersion. I'd like to test that against field data. |
-| Corrections | In preparation | My August publication paired a liquid-air energy store with data center cooling. Working through it since, the cold side loses to an ordinary chiller. That correction is being published openly, because a wrong number that supports a right idea is still a wrong number. |
+| Corrections | In preparation | My August publication paired a liquid-air energy store with data center cooling. Working through it since, the cold side loses to an ordinary chiller. That correction is being published openly, because a wrong number that supports a right idea is still a wrong number. The core calculation is here now: [COP check](cryocap/liquid-air-cop-check.md). |
 
 ### What would help
 
 - Field recordings or spectra from near data center heat-rejection plants, especially tonal or
   low-frequency complaints.
 - Pressure-drop curves for real data center dry-cooler coils.
-- A thermodynamics check on the liquid-air correction.
+- A thermodynamics check on the liquid-air correction, starting with the
+  [COP check](cryocap/liquid-air-cop-check.md).
 - A view from people who permit or run sites: would a hard interlock count as a noise mitigation
   where you work?
 
@@ -53,7 +63,11 @@ and anyone can build on them.
 - **Cascaded Liability-to-Feedstock Resource Recovery Architectures: Geothermal-Desalination-Membrane-Mineral
   Stacks, Cryogenic Storage-Air Separation-Datacenter Cascades, and Parallel-Topology Hybrid Storage.**
   Technical Disclosure Commons, Defensive Publications Series, Art. 11407, published 18 August 2026.
-  CryoCap is Section 4. Archive: [doi.org/10.5281/zenodo.21938808](https://doi.org/10.5281/zenodo.21938808)
+  Archive: [doi.org/10.5281/zenodo.21938808](https://doi.org/10.5281/zenodo.21938808).
+  The paper covers three families. Family A (geothermal brine, desalination, membranes) comes first;
+  **CryoCap is Section 4, Embodiment Family B.** The liquid-air COP calculation is not in this record
+  yet; it is in the [COP check](cryocap/liquid-air-cop-check.md) and will be published as a formal
+  amendment.
 - **Amendment 1**, 21 August 2026:
   [doi.org/10.5281/zenodo.22040228](https://doi.org/10.5281/zenodo.22040228)
 
